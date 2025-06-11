@@ -13,7 +13,6 @@ export default function RootLayout() {
   });
 
   if (!loaded) {
-    // Async font loading only occurs in development.
     return null;
   }
 
@@ -21,6 +20,8 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        {/* Use a dynamic route for the screens directory */}
+        <Stack.Screen name="screens/videoShoot"  options={{ headerShown: true ,title:"Video Shoot",headerTitleAlign: 'center',}}/>
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />
