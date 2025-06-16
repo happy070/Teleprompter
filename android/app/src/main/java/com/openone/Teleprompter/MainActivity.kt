@@ -1,4 +1,4 @@
-package com.openone.Teleprompter
+package com.himanshu70.Teleprompter
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

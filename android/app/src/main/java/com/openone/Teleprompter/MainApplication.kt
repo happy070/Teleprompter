@@ -1,4 +1,4 @@
-package com.openone.Teleprompter
+package com.himanshu70.Teleprompter
 
 import android.app.Application
 import android.content.res.Configuration

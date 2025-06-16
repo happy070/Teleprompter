@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Teleprompter",
-    "slug": "Teleprompter",
+    "slug": "teleprompter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.openone.Teleprompter"
+      "bundleIdentifier": "com.himanshu70.Teleprompter"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +18,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.openone.Teleprompter"
+      "package": "com.himanshu70.Teleprompter"
     },
     "web": {
       "bundler": "metro",
@@ -39,6 +39,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3aa1091a-e96e-4ef9-8994-c460caccc949"
+      }
+    },
+    "owner": "himanshu70"
   }
 }

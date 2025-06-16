@@ -28,7 +28,7 @@
         <key>CFBundleURLSchemes</key>
         <array>
           <string>teleprompter</string>
-          <string>com.openone.Teleprompter</string>
+          <string>com.himanshu70.Teleprompter</string>
         </array>
       </dict>
     </array>
